@@ -1,0 +1,551 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 10vh;
+    background-color: #0f0f0f;
+}
+
+header div {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header div a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+    /* gray */
+
+    color: #969696;
+}
+
+main {
+    height: 90vh;
+    background-image: url(./images/Rectangle\ 3Платок.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+.block {
+    display: flex;
+    width: 320px;
+    height: 320px;
+    border: 4px solid white;
+
+}
+
+main>p {
+    width: 730px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.centerTocenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block P {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 2PX solid white;
+    margin-top: 5px
+}
+
+.main {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.top {
+    height: 70vh;
+    display: flex;
+}
+
+.season2021 {
+    width: 55%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.newCollection {
+    width: 45%;
+    height: 100%;
+    background-image: url(./images/Rectangle\ 8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.clocks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.clock {
+    margin: 3px;
+}
+
+.clock image {
+    width: 215px;
+}
+
+.clock .name {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* white */
+
+    color: #FFFFFF;
+    margin-top: 25px;
+
+}
+
+.clock .price {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+
+    /* light-gray */
+
+    color: #D0D0D0;
+}
+
+.clock div {
+    padding: 15px;
+    background-color: #191B1C;
+
+}
+
+.season2021 h1,
+.newCollection h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+hr {
+    width: 120px;
+    background-color: white;
+    height: 1px;
+}
+
+.newCollection hr {
+    margin: 30px 0;
+}
+
+.newCollection button,
+.bottom button {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    /* white */
+
+    color: #FFFFFF;
+    background: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+
+}
+
+.bottom {
+    height: 60vh;
+    display: flex;
+}
+
+.bottom .photo {
+    width: 45%;
+    height: 100%;
+    background-image: url(./images/Rectangle\ 9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bottom .text {
+    width: 55%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.bottom .text h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+.bottom .text p {
+    width: 471px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+    text-align: center;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+.newArrivals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding-top: 120px;
+
+}
+
+.newArrivals hr {
+    margin-top: 40px;
+}
+
+.newArrivals h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+.newArrivals .first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 81px;
+
+}
+
+.newArrivals .second {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
+.brands {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
+
+.brands h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+.brands hr {
+    margin: 40px
+}
+
+.jewelry {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+footer {
+
+    height: 50vh;
+    background-image: url(./images/Rectangle\ 15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+footer h1 {
+    margin-bottom: 40px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* white */
+
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+
+.mailing_list p,
+.about p {
+    width: 350px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+
+
+footer input[type="email"] {
+    width: 210px;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+}
+
+footer input[type="email"]::placeholder {
+    color: white;
+    padding: 20px;
+}
+
+footer input[type="submit"] {
+    width: 210px;
+    height: 42px;
+    background: #0F0F0F;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+    border: none;
+}
+
+
+.categories a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;  
+    color: #D0D0D0;
+    text-decoration: none;
+}
+.references div {
+    background-color: #0F0F0F;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+.references{
+    display: flex;
+    flex-wrap: wrap;
+}
+#burger{
+    width:32px;
+    display: none;
+}
+
+@media (max-width: 576px) {
+    header .container div{
+        display: none;
+    }
+    #burger{
+        display: flex;
+    }
+    header .container > a{
+        display: flex;
+    }
+    .container{
+        width: 90%;
+    }
+    main > p{
+        width: 95%;
+        margin-top: 40px;
+        font-size: 13px;
+    }
+
+    main div{
+        width: 220px;
+        height: 220px;
+        border: 4px solid white;
+    }
+
+    .top {
+        height: fit-content;
+     
+        flex-direction: column;
+    }
+    .season2021 {
+        width: 100%;
+    }
+    .clocks{
+        flex-direction: column;
+        align-items: center;
+    }
+    .clock{
+        margin-bottom: 10px;
+    }
+    .top .newCollection{
+        width: 100%;
+        height: 70vh;
+        background-position: left;
+    }
+    .bottom{
+        flex-direction: column;
+        height: auto;
+    }
+    .bottom .photo{
+        width: 100%;
+        height:30vh;
+        order: 1;
+    }
+    .bottom .text{
+        padding-top: 10px;
+        width: 100%;
+    }
+    .bottom .text p { width: 300px;}
+    .bottom button{
+        margin: 10px 0;
+    }
+   .bottom hr {
+    margin: 10px;
+   }
+   .newArrivals .first, .second{
+    flex-direction: column;
+   }
+   .brands .jewelry{
+    flex-flow: wrap;
+    width: 90%;
+   }
+   .brands .jewelry div{
+   width: 50%;
+   }
+   .brands .jewelry div img{
+    width: 150px;
+   }
+   footer{
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+   }
+   footer .about{
+    justify-content: center;
+    align-items: center;
+   }
+   footer h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+   }
+   .reg{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .reg input{
+    text-align: center;
+   }
+}
